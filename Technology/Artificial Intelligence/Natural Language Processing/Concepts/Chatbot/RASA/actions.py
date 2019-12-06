@@ -17,7 +17,7 @@ class BingLocationExtractor:
     
     def __init__(self):
        self.bing_baseurl="http://dev.virtualearth.net/REST/v1/Locations"
-       self.bing_api_key="" ## Update Bing API key here
+       self.bing_api_key="d86c651ac38525e411568fd1c2cecaed" ## Update Bing API key here
 
     def getLocationInfo(self, query, tracker):
         
@@ -57,7 +57,7 @@ class ActionSetLocation(Action):
 class Zomato:
 
     def __init__(self):
-        self.api_key=""  ## Update Zomato API key here
+        self.api_key="AkPO_q6YcdU0RnfvttQYqX-x5pHU8ARTs7E9M0wtKwUutrqgZgFaPSwsMXXoVusU"  ## Update Zomato API key here
         self.base_url = "https://developers.zomato.com/api/v2.1/"
 
 
